@@ -1,0 +1,217 @@
+/* Estilos básicos para o corpo da página */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+}
+
+/* Tema Light (padrão) */
+body.light-theme {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Define a cor das fontes das divs no tema Light */
+body.light-theme div {
+  background-color: #ffffff;
+  color: #000; /* Cor preta para as fontes das divs no tema Light */
+}
+
+/* Tema Dark */
+body.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Define o estilo das divs no tema Dark */
+body.dark-theme div {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+/* Efeito hover nas divs para ambos os temas */
+.feature-card,
+.timeline-content {
+  background-color: inherit;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Hover para o modo Light */
+body.light-theme .feature-card:hover,
+body.light-theme .timeline-content:hover {
+  background-color: #e9ecef;
+  color: #212529;
+  transform: translateY(-5px); /* Efeito sutil de levantar a div */
+}
+
+/* Hover para o modo Dark */
+body.dark-theme .feature-card:hover,
+body.dark-theme .timeline-content:hover {
+  background-color: #f1f1f1; /* Fundo claro ao passar o mouse */
+  color: #212529;            /* Fonte escura ao passar o mouse */
+  transform: translateY(-5px);
+}
+
+/* Estilos adicionais para links */
+a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #64b5f6;
+}
+
+/* Botões */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botões no tema Light */
+body.light-theme .btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+body.light-theme .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Botões no tema Dark */
+body.dark-theme .btn {
+  background-color: #444;
+  color: #f1f1f1;
+}
+
+body.dark-theme .btn:hover {
+  background-color: #555;
+}
+
+/* Botões de alternância de tema */
+.theme-toggle-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #218838;
+}
+
+/* Navbar */
+.navbar {
+  transition: background-color 0.3s, color 0.3s;
+  border: none;        /* Remove qualquer borda */
+  box-shadow: none;    /* Remove qualquer sombra que pareça uma borda */
+}
+
+/* Contêiner com sombra suave */
+.container {
+  padding: 20px;
+  border-radius: 0; /* Remove bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos específicos para o rodapé */
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Cor branca para o rodapé no modo Dark */
+body.dark-theme footer {
+  color: #ffffff;
+}
+
+/* Transição suave para elementos gerais */
+* {
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+/* Estilos específicos para o rodapé */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  transition: color 0.3s;
+}
+
+/* Cor padrão para o texto do rodapé */
+footer p {
+  color: #6c757d; /* Cor padrão para o modo Light (text-muted) */
+}
+
+/* Cor branca para o rodapé no modo Dark */
+body.dark-theme footer p {
+  color: #ffffff; /* Define a cor branca no modo Dark */
+}
+/* Botões no tema Light */
+body.light-theme .btn {
+  background-color: transparent; 
+  color: #007bff;                
+  border: 1px solid #007bff;
+}
+
+/* Hover para os botões no tema Light */
+body.light-theme .btn:hover {
+  background-color: #f0f0f0;     
+  color: #0056b3;                
+  border: 1px solid #0056b3;     
+}
+/* Navbar com fundo preto e texto branco */
+.navbar {
+  background-color: #000 !important; 
+  color: #fff !important;            
+  border: none;                      /* Remove qualquer borda */
+  box-shadow: none;                  /* Remove qualquer sombra */
+}
+.navbar-brand img {
+  height: 70px;  /* Define a altura do logo */
+  width: auto;   /* Mantém a proporção da imagem */
+  transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+
+/* Efeito de hover opcional para o logo */
+.navbar-brand img:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+/* Estilos básicos para o corpo da página */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+  font-size: 113%; /* Aumenta todas as fontes em 13% */
+}
+
+/* Ajuste adicional para elementos específicos */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 113%; /* Mantém a proporção para títulos */
+}
+
+p, label, input, button, a {
+  font-size: 113%; /* Ajusta os parágrafos, labels, inputs, botões e links */
+}
+
+/* Certifica-se de que a navbar e botões também têm o tamanho ajustado */
+.navbar {
+  font-size: 113%;
+}
+
+.btn {
+  font-size: 113%;
+}
+
+     

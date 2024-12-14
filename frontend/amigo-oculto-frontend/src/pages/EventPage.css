@@ -1,0 +1,16 @@
+/* EventPage.css */
+
+.participant-item {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Modo Dark - Borda Branca e Hover Amarelo */
+  body.dark-theme .participant-item {
+    border: 1px solid #fff;
+  }
+  
+  body.dark-theme .participant-item:hover {
+    background-color: #ffeb3b;
+    color: #212529;
+  }
+  

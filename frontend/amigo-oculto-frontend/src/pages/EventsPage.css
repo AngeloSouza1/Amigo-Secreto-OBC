@@ -1,0 +1,60 @@
+/* Estiliza os cards de eventos */
+.event-card {
+    background-color: inherit;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  /* Hover para os cards */
+  .event-card:hover {
+    transform: translateY(-5px);
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilos para o modo Dark */
+  body.dark-theme .event-card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+  
+  body.dark-theme .event-card:hover {
+    background-color: #444;
+  }
+  
+  /* Estiliza o botão de criar novo evento */
+  .btn-success {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+
+/* Botões dentro dos cards */
+.event-card .btn {
+  margin: 0 1px; /* Reduz a margem horizontal para 1px */
+  font-size: 0.9rem;
+  padding: 5px 8px; /* Reduz o padding para deixar os botões mais compactos */
+}
+
+/* Ajuste para o contêiner dos botões */
+.event-card .d-flex {
+  gap: 1px; /* Reduz o espaçamento entre os botões para 2px */
+}
+.event-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-success,
+.btn-outline-danger {
+  width: 100%;
+}
+
+input.form-control {
+  font-size: 0.9rem;
+}

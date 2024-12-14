@@ -1,0 +1,36 @@
+/* Estilização do card do participante */
+.participant-card {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  }
+  
+  /* Modo Dark para o card */
+  body.dark-theme .participant-card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Efeito hover no card */
+  .participant-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Botão de voltar */
+  .btn-secondary {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .participant-card {
+      padding: 20px;
+      font-size: 1rem;
+    }
+  }
+  

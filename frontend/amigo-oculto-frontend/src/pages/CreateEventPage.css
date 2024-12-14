@@ -1,0 +1,169 @@
+/* Estilização adicional para CreateEventPage */
+
+
+  
+  /* Inputs estilizados */
+  .form-control {
+    border: 2px solid #ccc;
+    border-radius: 8px;/* Estilização adicional para CreateEventPage */
+
+
+  
+    /* Inputs estilizados */
+    .form-control {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 1rem;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    
+    .form-control:focus {
+      border-color: #28a745;
+      box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
+    }
+    
+    /* Botão estilizado */
+    .btn-success {
+      background-color: #28a745;
+      color: #fff;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    
+    .btn-success:hover {
+      background-color: #218838;
+      transform: translateY(-3px);
+    }
+    
+    /* Mensagem de erro animada */
+    .alert-danger {
+      background-color: #ffdddd;
+      border: 1px solid #ff5c5c;
+      color: #a94442;
+      border-radius: 8px;
+      padding: 10px;
+    }
+    
+    /* Tema Dark */
+    body.dark-theme .container {
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+    }
+    
+    body.dark-theme .form-control {
+      background-color: #2c2c2c;
+      border: 2px solid #444;
+      color: #f1f1f1;
+    }
+    
+    body.dark-theme .form-control:focus {
+      border-color: #28a745;
+      box-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+    }
+    
+    body.dark-theme .btn-success {
+      background-color: #444;
+    }
+    
+    body.dark-theme .btn-success:hover {
+      background-color: #555;
+    }
+  /* Estilo dos placeholders no modo Dark */
+  body.dark-theme input::placeholder {
+      color: #ffffff; /* Cor branca para os placeholders no modo dark */
+      opacity: 0.7;   /* Deixe o texto um pouco mais suave (opcional) */
+    }
+    
+    body.dark-theme textarea::placeholder {
+      color: #ffffff; /* Cor branca para placeholders em textareas no modo dark */
+      opacity: 0.7;
+    }
+  /* Estilo adicional para a imagem */
+  .img-fluid {
+      max-height: 400px;
+      object-fit: cover;
+    }
+    
+    /* Estilo para o formulário no modo dark */
+    body.dark-theme .form-label {
+      color: #ffffff;
+    }
+      
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
+  }
+  
+  /* Botão estilizado */
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+  }
+  
+  /* Mensagem de erro animada */
+  .alert-danger {
+    background-color: #ffdddd;
+    border: 1px solid #ff5c5c;
+    color: #a94442;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Tema Dark */
+  body.dark-theme .container {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+  
+  body.dark-theme .form-control {
+    background-color: #2c2c2c;
+    border: 2px solid #444;
+    color: #f1f1f1;
+  }
+  
+  body.dark-theme .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+  }
+  
+  body.dark-theme .btn-success {
+    background-color: #444;
+  }
+  
+  body.dark-theme .btn-success:hover {
+    background-color: #555;
+  }
+/* Estilo dos placeholders no modo Dark */
+body.dark-theme input::placeholder {
+    color: #ffffff; /* Cor branca para os placeholders no modo dark */
+    opacity: 0.7;   /* Deixe o texto um pouco mais suave (opcional) */
+  }
+  
+  body.dark-theme textarea::placeholder {
+    color: #ffffff; /* Cor branca para placeholders em textareas no modo dark */
+    opacity: 0.7;
+  }
+/* Estilo adicional para a imagem */
+.img-fluid {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Estilo para o formulário no modo dark */
+  body.dark-theme .form-label {
+    color: #ffffff;
+  }
+    
