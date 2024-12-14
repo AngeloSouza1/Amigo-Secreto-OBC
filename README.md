@@ -75,7 +75,10 @@ Outras Bibliotecas:
 🔹 Video Demonstrativo:
 
 
-https://github.com/user-attachments/assets/aab72e63-be1b-4c2e-ad65-03b40e15d683
+
+https://github.com/user-attachments/assets/1daae171-8e00-4a62-bd27-cd55e2ab0ebb
+
+
 
 ---
 
